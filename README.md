@@ -66,7 +66,8 @@ pip install -r requirements.txt
 LAS requires the DTD (Describable Textures Dataset) for anomaly texture generation:
 ```bash
 # The DTD dataset will be automatically downloaded on first run
-# Default location: ./data/dtd/
+├── data/
+    ├── dtd/
 ```
 
 ### Training
@@ -88,7 +89,9 @@ EPOCHS = 50
 ## 📁 File Structure
 
 ```
-├── data/anomaly_dataset/
+├── data
+|   ├── anomaly_dataset/
+|   ├── dtd/
 ├── scripts/
 |   ├── main.py              # Entry point and configuration
 |   ├── trainer.py           # Training loop and model management
@@ -96,7 +99,7 @@ EPOCHS = 50
 |   ├── models.py            # Neural network architectures
 |   ├── datloader.py         # Data loading and preprocessing
 |   ├── visualize.py         # Plotting and visualization
-├── results/                 # Output directory for models and plots
+├── results/las/             # Output directory for models and plots
 ├── requirements.txt         # Required packages
 ```
 
