@@ -67,7 +67,8 @@ LAS requires the DTD (Describable Textures Dataset) for anomaly texture generati
 ```bash
 # The DTD dataset will be automatically downloaded on first run
 ├── data/
-    ├── dtd/
+    └── anomaly_dataset/
+    └── dtd/
 ```
 
 ### Training
